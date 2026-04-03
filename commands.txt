@@ -1,0 +1,25 @@
+IT:
+
+expense - Registra una nuova spesa
+income - Registra un nuovo incasso
+transfer - Registra un trasferimento di denaro tra due conti
+cancel - Annulla l'operazione in corso
+lookup - Ottieni informazioni sulle tue spese / guadagni
+accounts - Ricevi informazioni sui conti
+month_stats - Ricevi informazioni sulle spese e gli incassi del mese corrente
+clear_cache - Pulisci la cache dei dati
+set_locale - Imposta lingua
+help - Mostra tutta la lista di comandi disponibili
+
+EN:
+
+expense - Record a new expense
+income - Record a new income
+transfer - Record a money transfer between two accounts
+cancel - Cancel the current operation
+lookup - Get information about your expenses/income
+accounts - Get information about accounts
+month_stats - Get information about expenses and income for the current month
+clear_cache - Clear the data cache
+set_locale - Set language
+help - Show the full list of available commands

@@ -1,0 +1,5 @@
+export const DESTROY_MESSAGE_TIMEOUT = {
+  SHORT: 1000 * 10,
+  MEDIUM: 1000 * 30,
+  LONG: 1000 * 60 * 2,
+};

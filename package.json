@@ -1,0 +1,65 @@
+{
+  "name": "expense-tracking",
+  "version": "1.0.0",
+  "description": "Telegram Bot for tracking expenses and incomes",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "ncc build src/index.ts -o public -m",
+    "build:watch": "tsc --watch",
+    "build:serve": "nodemon dist/index.js",
+    "start": "node dist/index.js",
+    "lint:fix": "eslint --fix --ext .ts src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Domenico Cardillo",
+  "license": "ISC",
+  "devDependencies": {
+    "@telegraf/types": "^6.9.1",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.14",
+    "@types/google-spreadsheet": "^3.2.2",
+    "@types/i18n": "^0.13.12",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/node": "^17.0.36",
+    "@types/react": "^18.2.41",
+    "@types/react-dom": "^18.2.17",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "@vercel/ncc": "^0.38.1",
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "nodemon": "^3.0.2",
+    "typescript": "^5.3.2"
+  },
+  "engines": {
+    "node": "20.x",
+    "npm": "10.x"
+  },
+  "dependencies": {
+    "@react-pdf/renderer": "^3.1.14",
+    "@sentry/node": "^7.28.0",
+    "@sentry/tracing": "^7.28.0",
+    "@vercel/node": "^2.3.0",
+    "calculate-string": "^2.0.2",
+    "cors": "^2.8.5",
+    "date-fns": "^2.29.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.2",
+    "google-auth-library": "^9.4.1",
+    "google-spreadsheet": "^4.1.1",
+    "i18n": "^0.15.1",
+    "jsonwebtoken": "^9.0.2",
+    "monk": "^7.3.4",
+    "node-cache": "^5.1.2",
+    "openai": "^4.28.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "telegraf": "^4.16.2"
+  },
+  "overrides": {
+    "@vercel/node": {
+      "node-fetch": "2.7.0"
+    }
+  }
+}
